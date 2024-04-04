@@ -1,0 +1,38 @@
+
+
+.header {
+    padding-top: 18px;
+    background-color: #FBFBFB;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.header__navbar {
+    display: flex;
+}
+
+.navbar__list {
+    display: flex;
+    gap: 53px;
+    margin-right: 208px;
+}
+
+.navbar__link {
+
+    color: rgb(17, 17, 17);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #5A5AC9;
+    }
+}
+
+.navbar__img+.navbar__img {
+    margin-left: 33px;
+}

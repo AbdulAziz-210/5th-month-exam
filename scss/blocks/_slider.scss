@@ -1,0 +1,51 @@
+
+
+.slider-section {
+    background-image: url("../../images/kosmetic.jpg");
+    background-repeat: no-repeat;
+    height: 608px;
+    background-size: 100%;
+    margin-bottom: 208px;
+}
+
+.slider__content {
+    width: 434px;
+    padding-top: 181px;
+}
+
+.slider__text {
+    margin-bottom: 15px;
+    color: rgb(17, 17, 17);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34.3px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.slider__main-text {
+    margin-bottom: 44px;
+    color: rgb(17, 17, 17);
+    font-family: Raleway;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62.5px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.slider__link {
+    color: rgb(17, 17, 17);
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid rgb(17, 17, 17);
+    padding: 16px 31px;
+}
