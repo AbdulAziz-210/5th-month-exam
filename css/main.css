@@ -771,7 +771,7 @@ body {
 }
 
 .blogs__list {
-  margin-bottom: 60px;
+  margin-bottom: 65px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -838,4 +838,116 @@ body {
   letter-spacing: 0%;
   text-align: left;
   text-transform: capitalize;
+}
+
+.brand-section {
+  text-align: center;
+}
+
+.brand__img {
+  width: 1296px;
+}
+
+.site-footer {
+  background-color: #EFEFEF;
+}
+
+.footer__folder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__wrap {
+  width: 396px;
+  padding: 80px 0 71px;
+}
+
+.footer__img {
+  margin-bottom: 24.4px;
+}
+
+.footer__text {
+  margin-bottom: 29px;
+  color: rgb(86, 86, 86);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.01px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer__strong {
+  display: inline-block;
+  position: relative;
+  color: rgb(17, 17, 17);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  padding-bottom: 19px;
+  margin-bottom: 24px;
+}
+.footer__strong::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: #5A5AC9;
+}
+
+.footer__next-text {
+  margin-bottom: 5.5px;
+  color: rgb(86, 86, 86);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.01px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer__next-text--accend {
+  width: 397px;
+}
+
+.footer__input-wrap {
+  width: 416px;
+  max-width: 100%;
+  position: relative;
+}
+
+.footer__input-wrap input {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border: none;
+  padding: 13px 29px;
+  width: 340px;
+  color: rgb(86, 86, 86);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer__input-wrap button {
+  background-color: #5A5AC9;
+  border-radius: 50%;
+  height: 100%;
+  border-radius: 0px 30px 30px 0px;
+  position: absolute;
+  right: 75px;
+  width: 91.08px;
+  background: rgb(90, 90, 201);
+  color: #fff;
+  border: none;
 }/*# sourceMappingURL=main.css.map */
